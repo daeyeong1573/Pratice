@@ -9,17 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Pratice">
-        <activity android:name=".Recyclerview.RecyclerViewActivity"></activity>
-        <activity android:name=".Fragment.FragmentActivity">
+        <activity android:name=".Null_Safety.NullSafetyActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".Recyclerview.RecyclerViewActivity" />
+        <activity android:name=".Fragment.FragmentActivity">
 
         </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
